@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0823079E2EA87AE10013F271 /* UsageMonitorUtilities in Frameworks */ = {isa = PBXBuildFile; productRef = 0823079D2EA87AE10013F271 /* UsageMonitorUtilities */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		08C796132EA6B36600877F86 /* UsageMonitorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsageMonitorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0823079E2EA87AE10013F271 /* UsageMonitorUtilities in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = UsageMonitorApp;
 			packageProductDependencies = (
+				0823079D2EA87AE10013F271 /* UsageMonitorUtilities */,
 			);
 			productName = UsageMonitorApp;
 			productReference = 08C796132EA6B36600877F86 /* UsageMonitorApp.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 08C7960A2EA6B36600877F86;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0823079C2EA87AE10013F271 /* XCRemoteSwiftPackageReference "UsageMonitorUtilities" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 08C796142EA6B36600877F86 /* Products */;
 			projectDirPath = "";
@@ -345,6 +354,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0823079C2EA87AE10013F271 /* XCRemoteSwiftPackageReference "UsageMonitorUtilities" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ericgong2005/UsageMonitorUtilities";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0823079D2EA87AE10013F271 /* UsageMonitorUtilities */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0823079C2EA87AE10013F271 /* XCRemoteSwiftPackageReference "UsageMonitorUtilities" */;
+			productName = UsageMonitorUtilities;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 08C7960B2EA6B36600877F86 /* Project object */;
 }

@@ -1,0 +1,15 @@
+{
+  "originHash" : "383b27e0c87a0e782d22f91593a91d0e77baa7c9911af0d472c69e903c1548e1",
+  "pins" : [
+    {
+      "identity" : "usagemonitorutilities",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ericgong2005/UsageMonitorUtilities",
+      "state" : {
+        "branch" : "main",
+        "revision" : "7ba921483baa1db3d4930ecc3a0c58ef933380f6"
+      }
+    }
+  ],
+  "version" : 3
+}
